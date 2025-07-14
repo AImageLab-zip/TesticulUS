@@ -1,9 +1,9 @@
-<div align="left" style="display: flex; align-items: center; gap: 16px;">
-  <h1 style="display: inline; margin: 0;">
-    <a href="https://federicobolelli.it/pub_files/2025iciap.pdf">Enhancing Testicular Ultrasound Image Classification Through Synthetic Data and Pretraining Strategies</a>
-  </h1>
-  <img src="https://ditto.ing.unimore.it/static/testiculus/logo_w_text.png" alt="TesticulUS Dataset Logo" width="80"/>
-</div>
+<p align="left">
+  <a href="https://federicobolelli.it/pub_files/2025iciap.pdf" style="vertical-align: middle; font-size: 2em; font-weight: bold; text-decoration: none; color: inherit;">
+    Enhancing Testicular Ultrasound Image Classification Through Synthetic Data and Pretraining Strategies
+  </a>
+  <img src="https://ditto.ing.unimore.it/static/testiculus/logo_w_text.png" alt="TesticulUS Dataset Logo" width="80" style="vertical-align: middle; margin-left: 12px;"/>
+</p>
 
 This repository contains the official resources for the [**TesticulUS**](https://ditto.ing.unimore.it/testiculus/) dataset and the [relative paper](https://federicobolelli.it/pub_files/2025iciap.pdf), as presented at the International Conference on Image Analysis and Processing (ICIAP) 2025.
 
@@ -51,7 +51,7 @@ This process allows you to generate new synthetic images and optionally filter t
 
 ## Citation
 
-If you use the TesticulUS dataset or the concepts from our paper in your research, please cite our work:
+If you use the TesticulUS dataset or you find this code and paper useful for your research, please cite our work:
 
 ```bibtex
 @inproceedings{2025ICIAP, 
