@@ -27,8 +27,8 @@ def main():
     args = create_argparser().parse_args()
 
     dist_util.setup_dist()
-    logger.configure(dir=f"{str(Path(__file__).parent)}/sampler_logger_2")
-
+    logger.configure(dir=args.logging_dir)
+    print(f"You can see logs in {args.logging_dir}")
     logger.log("creating model and diffusion...")
     model, diffusion = create_model_and_diffusion(
         **args_to_dict(args, model_and_diffusion_defaults().keys())
@@ -104,6 +104,7 @@ def create_argparser():
         batch_size=16,
         use_ddim=False,
         model_path=None,
+        logging_dir=f"{str(Path(__file__).parent)}/sampler_logger/{datetime.now().strftime('%Y_%m_%d')}",
     )
     defaults.update(model_and_diffusion_defaults())
     parser = argparse.ArgumentParser()
