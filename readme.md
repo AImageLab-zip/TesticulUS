@@ -1,11 +1,29 @@
-<div align="left" style="display: flex; align-items: center; justify-content: space-between;">
-  <h1 style="margin: 0; font-size: 2em; font-weight: bold;">
-    <a href="https://federicobolelli.it/pub_files/2025iciap.pdf" style="text-decoration: none; color: inherit;">
+<!-- header block -->
+<div style="
+  display:flex;
+  align-items:flex-start;   /* top–align logo with first line of title   */
+  gap:16px;                 /* space between title and logo             */
+  flex-wrap:wrap;           /* if it really can’t fit, stack gracefully */
+">
+  <h1 style="
+    margin:0;
+    font-size:2em;
+    font-weight:bold;
+    line-height:1.15;
+    flex:1 1 0;             /* allow the title to shrink & wrap         */
+  ">
+    <a href="https://federicobolelli.it/pub_files/2025iciap.pdf"
+       style="text-decoration:none;color:inherit;">
       Enhancing Testicular Ultrasound Image Classification Through Synthetic Data and Pretraining Strategies
     </a>
   </h1>
-  <img src="https://ditto.ing.unimore.it/static/testiculus/logo_w_text.png" alt="TesticulUS Dataset Logo" height="60" style="margin-left: 16px;"/>
+
+  <img src="https://ditto.ing.unimore.it/static/testiculus/logo_w_text.png"
+       alt="TesticulUS Dataset Logo"
+       height="60"
+       style="flex:0 0 auto;" />  <!-- never shrink -->
 </div>
+
 
 This repository contains the official resources for the [**TesticulUS**](https://ditto.ing.unimore.it/testiculus/) dataset and the [relative paper](https://federicobolelli.it/pub_files/2025iciap.pdf), as presented at the International Conference on Image Analysis and Processing (ICIAP) 2025.
 
