@@ -1,11 +1,9 @@
+<!-- Add as many <br> as you need to lower the heading -->
 <!-- Logo: float to the right -->
 <img src="https://ditto.ing.unimore.it/static/testiculus/logo_w_text.png"
      alt="TesticulUS Dataset Logo"
      align="right"
-     height="103">
-
-<!-- Add as many <br> as you need to lower the heading -->
-
+     height="60">
 <!-- Heading -->
 <h1>
   <a href="https://federicobolelli.it/pub_files/2025iciap.pdf">
